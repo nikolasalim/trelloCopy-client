@@ -1,7 +1,12 @@
 import React from "react";
+import AuthPageContainer from "./components/AuthPageContainer";
 
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <AuthPageContainer />
+    </div>
+  );
 }
 
 export default App;
