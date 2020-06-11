@@ -14,6 +14,7 @@ function LoginFormContainer() {
   };
 
   const onChange = (event) => {
+    // add the request to apollo server
     setInput({
       ...input,
       [event.target.name]: event.target.value,
